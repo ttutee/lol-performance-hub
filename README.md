@@ -2,6 +2,10 @@
 
 Aplicación web para analizar el rendimiento de jugadores de League of Legends utilizando la Riot Games API.
 
+## Descripción
+
+LOL Performance Hub permite buscar jugadores mediante Riot ID y analizar sus últimas partidas, mostrando estadísticas generales, campeones más utilizados, historial reciente y visualizaciones de rendimiento.
+
 ## Funcionalidades
 
 - Búsqueda por Riot ID
@@ -11,23 +15,27 @@ Aplicación web para analizar el rendimiento de jugadores de League of Legends u
 - Winrate
 - Campeón más jugado
 - Mejor combinación campeón/rol
-- Top campeones
+- Top 3 campeones
 - Historial de partidas recientes
-- Gráfico de rendimiento
+- Gráfico de victorias y derrotas
 
-## Tecnologías
+## Tecnologías utilizadas
 
-- Node.js
-- Express
-- JavaScript
 - HTML
 - CSS
+- JavaScript
+- Node.js
+- Express
+- Axios
 - Chart.js
 - Riot Games API
 
-## Instalación
+## Estructura del proyecto
 
-```bash
-cd backend
-npm install
-npm run dev
+```txt
+lol-performance-hub/
+├── backend/
+├── frontend/
+├── discord-bot/
+├── README.md
+└── .gitignore
